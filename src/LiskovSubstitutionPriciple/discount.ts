@@ -1,4 +1,4 @@
-export abstract class Discount {
+export class Discount {
   protected discount = 0;
   calculate(price: number): number {
     return price * this.discount;
